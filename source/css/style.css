@@ -1,0 +1,112 @@
+/*======================= CSS STYLE RESET ======================== */
+html, body, div, span,
+applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+/*a,*/ abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dd, dl, dt, li, ol, ul,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  line-height: 1;
+  text-align: left;
+  vertical-align: baseline;
+}
+a img, :link img, :visited img {
+  border: 0;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+ol, ul {
+  list-style: none;
+}
+q:before, q:after,
+blockquote:before, blockquote:after {
+  content: "";
+}
+
+/* =================================================================================================== */
+/* GENERAL SITE CSS */
+/* =================================================================================================== */
+body{
+  background: #C6C7C8;
+  margin: 0 auto;
+  width: 100%;
+  font-family: "Helvetica Neue", "Arial", Verdana, sans-serif;
+  text-align: center;
+  z-index: 1;
+  }
+  
+  p {font-size:16px; line-height:24px; color:#EAE4E4; padding:15px 0; margin:0;}
+  a {color:#fff;}
+  
+  form   {margin:25px 0;}
+  form p {padding:10px 0;}
+  legend {color:#EAE4E4;}
+  input  {background:#EAE4E4; padding:3px 6px; margin:0; color:#434562; font-size:16px; width:400px;}
+  
+  #wrapper {
+    position: relative;
+    background: #434562 url(../images/background.jpg) top repeat-x;
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+    #intro-header {
+      position: relative;
+      display: block;
+      width: 950px;
+      height: 201px;
+      margin: 0 auto;
+      text-align: center;
+      border: 5px solid #fff;
+      padding: 5px;
+    }
+      #flash-video  {display:block; width:402px; height:201px; float:left; background:#ccc;}
+      #intro-text   {margin:10px 0 -10px 0;}
+      #intro-text * {text-align:right; color:#767575; font-size:18px; line-height:24px; word-spacing:2px; letter-spacing:3px; padding:0 5px 20px 0;}
+  
+    #header {
+      position: relative;
+      width: 980px;
+      margin: 0 auto;
+      text-align: center;
+    }
+      #header p   {margin:0; padding:15px 0; font:12px Arial, Verdana, sans-serif; line-height:22px; color:#767575; text-align:center;}
+      #header img {border:5px solid #fff;}
+    
+    #logo-bar {
+      position: relative;
+      list-style: none;
+      display: block;
+      width: 1000px;
+      height: 56px;
+      background: #fff;
+      margin: 15px 0;
+      padding: 0;
+    }
+      #logo-bar li {position:relative; float:left; margin:0; padding:0; left:22px;}
+    
+    #content {
+      position: relative;
+      margin: 0 auto;
+      padding: 5px 40px;
+      text-align: left;
+      clear: both;
+    }
+    
+    #footer {
+      position: relative;
+      width: 1000px;
+      margin: 0 auto;
+      background: #A2A2A1;
+    }
+      #footer a {color:#000;}
+      #footer p {text-align:center; font-size:12px; line-height:16px; margin:0; padding:7px; color:#000;}
